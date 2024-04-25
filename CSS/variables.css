@@ -1,0 +1,26 @@
+:root{
+    /* --color-1: #33404F; */
+
+    --color-1: #5783bc;
+    --color-2: #063254;
+    --color-3: #a5c6f7;
+    --color-4: #FFFFFF;
+    --color-5: #d1d6e6;
+    --color-6: #afafaf;
+
+    
+
+    --space-layout-padding-lr:10px;
+    --space-layout-padding-t:5px;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBoldItalic";
+    src: url(../storage/font/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family:"Poppins-Light";
+    src: url(../storage/font/Poppins-Light.ttf);
+}
+
