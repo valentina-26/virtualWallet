@@ -27,7 +27,7 @@ body{
 
 .first h2{
     height: 3px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin-top:12%;
     margin-left: 4px;
     font-family:"Poppins-ExtraBoldItalic";
@@ -46,14 +46,14 @@ body{
 .welcome p{
     font-family: "Poppins-ExtraBoldItalic";
     font-size: 2rem;
-    color: var(--color-3);
+    color: var(--color-4);
 }
 
 .welcome span{
     font-family: "Poppins-ExtraBoldItalic";
     font-size: 2rem;
     width: 80%;
-    color: var(--color-3);
+    color: var(--color-4);
     
 }
 
@@ -72,7 +72,7 @@ body{
 }
 
 .savings p{
-    color:var(--color-3);
+    color:var(--color-4);
     font-size: 1.5rem;
     font-family: "Poppins-Light";
 
@@ -90,7 +90,7 @@ body{
     color: var(--color-2);
 }
 progress{
-    background-color: white; 
+    background-color: var(--color-4); 
     border-radius: 20px;
     width: 130px;
     height: 7px;
@@ -122,8 +122,8 @@ progress{
 
 
 .down{
-    background: var(--color-3);
-    height:600px;
+    background: var(--color-4);
+    height:70vh;
     border-radius: 30px;
     padding:17px ;
     overflow-y: scroll;
@@ -139,15 +139,11 @@ progress{
 
 .Activities{
     display: flex;
-    justify-content: center;
-    overflow-x: scroll;
-  
-
-    
+    flex-direction: row;
+    overflow-x: scroll; 
 }
 .Activities img{
     width: 150px; 
-    margin: -17px;
 }
 
 .container1{
