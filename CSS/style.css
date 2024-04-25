@@ -1,0 +1,78 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--color-1);
+    background-image: url(/storage/img/fondo.svg);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: var(--space-layout-padding-lr);
+    margin-bottom: 20px;
+    
+}
+
+.first{
+    display: flex;
+    
+}
+
+.first h2{
+    margin-top:10%;
+    height: 3px;
+    font-family: "SF-Pro-Text-Bold";
+    
+}
+
+.main{
+    padding: var(--space-layout-padding-t);
+}
+
+.welcome p{
+    font-family: "SF-Pro-Text-Heavy";
+    font-size: 2rem;
+}
+
+.welcome span{
+    font-family: "SF-Pro-Text-Light";
+    font-size: 2rem;
+    width: 80%;
+    
+}
+
+.savings{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 25px;
+
+}
+
+.savings h5{
+    color: white;
+    font-family: var("SF-Pro-Text-Medium");
+}
+
+.savings p{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.savings progress{
+    color: var(--color-2);
+}
+
+
+.down{
+    background: var(--color-3);
+    height:500px;
+    border-radius: 30px;
+}
