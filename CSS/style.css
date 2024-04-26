@@ -90,7 +90,7 @@ progress{
 
  
 .saving__two progress::-webkit-progress-value {
-    background-color:var(--color-3);
+    background-color:#B5C5C3;
     border-radius: 10px; 
 }
 
@@ -109,9 +109,10 @@ progress{
 
 .down{
     background: var(--color-3);
-    height:380px;
+    height:600px;
     border-radius: 30px;
     padding:17px ;
+    overflow-y: scroll;
 }
 
 .down h3{
@@ -134,6 +135,8 @@ progress{
     width: 150px; 
     margin: -17px;
 }
+
+
 
 .Transactions h3{
     font-family:"SF-Pro-Text-Bold" ;
@@ -170,16 +173,24 @@ progress{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 .men img{
-    
+    display: flex;
 }
 
+.footer{
+    /* background:red; */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    }
+
 .footer__ul{
-    margin-top: -8%;
     background:var(--color-1);
-    height: 60px;
+    height: 65px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
