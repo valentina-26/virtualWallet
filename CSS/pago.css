@@ -28,7 +28,7 @@
     margin-top:12%;
     margin-left: 4px;
     font-family: "SF-Pro-Text-Bold";
-    color: var(--color-1);
+    color: var(--color-4);
     
 }
 
@@ -74,6 +74,12 @@ main{
 
 }
 
+.Measures{
+    width: 25px;
+    height: 25px;
+    margin-left: 100px;
+}
+
 .learn img{
     height: 25px;
     margin-left: 80%;
@@ -96,4 +102,17 @@ button{
     height: 40px;
     border-radius: 20px;
 
+
+}
+
+.cards h2{
+    color: var(--color-1);
+    font-family:"SF-Pro-Text-Bold" ;
+    margin-bottom: 20px;
+}
+
+.first{
+    background: var(--color-1);
+    width: 70%;
+    
 }
