@@ -1,7 +1,7 @@
 @import url(variables.css);
 *{
     padding: 0;
-    margin: 5515;
+    margin:0;
     box-sizing: border-box;
 }
 
@@ -119,14 +119,14 @@ progress{
     color: var(--color-1);
     margin-top: 12px;
     font-size: 1.2rem;
-    color:"SF-Pro-Text-Bold";
+    font-family:"SF-Pro-Text-Bold";
  
 }
 
 .Activities{
     display: flex;
-    /* background: red; */
     justify-content: center;
+    overflow-x: scroll;
   
 
     
