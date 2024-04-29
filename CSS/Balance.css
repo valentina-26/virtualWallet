@@ -1,0 +1,173 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    background:var(--color-1);
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-layout-padding-lr);
+    margin-bottom: 80px; 
+}
+
+main{
+    overflow-y: scroll;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header__first{
+    /* background: blue; */
+    display: flex;
+    flex-direction: row;  
+}
+
+.header__first h2{
+    height: 3px;
+    font-size: 0.8rem;
+    margin-top:12%;
+    margin-left: 4px;
+    font-family: "SF-Pro-Text-Bold";
+    color: var(--color-4);
+}
+
+.Total{
+    background:var(--color-2);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.Total h3{
+    color:var(--color-4);
+}
+
+.ovals{
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+.Assets p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-1);
+    color: var(--color-4);
+    font-family: "SF-Pro-Text-Regular";
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.Debt p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-4);
+    border: 1px solid var(--color-2);
+    color: var(--color-2);
+    font-family: "SF-Pro-Text-Regular";
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+
+    
+}
+
+.Income{
+    display: flex;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-4);
+    border: 1px solid var(--color-3);
+    color: var(--color-3);
+    font-family: "SF-Pro-Text-Regular";
+}
+
+
+.speding{
+    background: var(--color-5);
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 80px;
+}
+
+.letter img{
+    width: 22px;
+}
+
+.text h4{
+    color: var(--color-1);
+    font-family:"SF-Pro-Text-Bold";
+}
+
+.text small{
+    font-family: "SF-Pro-Text-Regular";
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    }
+
+.footer__ul{
+    background:var(--color-1);
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__ul li{
+    list-style: none;
+    display: flex;
+}
+
+.footer__ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    gap: 5px;
+    color: var(--color-5);
+}
+
+.footer__ul img{
+    width: 30px;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+}
