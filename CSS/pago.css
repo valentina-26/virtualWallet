@@ -123,18 +123,22 @@ button{
 
 .firsta{
     flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
     background: var(--color-1);
     width: 220px;
-    height: 310px;
+    height: 330px;
     border-radius: 17px; 
     padding: 15px;
     margin: 15px;
+    color: var(--color-4);
     
 }
 
 .up{
     display: flex;
     justify-content: space-between;
+    height: 15%;
 }
 
 .up img{
@@ -142,32 +146,48 @@ button{
 }
 
 .up p{
-    color: var(--color-4);
+
     font-family: "SF-Pro-Text-Semibold";
 }
 
-.midle p{
-    display: flex;
-    color: var(--color-4);
+.midle{
+    height: 75%;
+    text-align: center;
+    
+}
+
+.midle1 {
+    height: 35%;
+    text-align: center;
+} 
+
+.midle1 p{
     font-family:"SF-Pro-Text-Semibold" ;
-    justify-content: center;
-    justify-items: center;
+    margin-top: 55%;
+}
+
+
+.midle p{
+    font-family:"SF-Pro-Text-Semibold" ;
+    margin-top: 45%;
 }
 
 .down img{
+    /* background: rebeccapurple; */
     display: flex;
     width: 50px;
-    justify-items: end;
+
 }
 
 .secondta{
     flex: 0 0 auto;
     background: var(--color-6);
     width: 220px;
-    height: 310px;
+    height: 330px;
     border-radius: 17px; 
     padding: 15px;
     margin: 15px;
+    color: var(--color-4);
 }
 
 .footer{
@@ -207,6 +227,13 @@ button{
     width: 30px;
 }
 
-.men img{
-    height: 100%;
+.cenFo{
+    display: flex;
+    flex-direction: column;
 }
+
+.bell img{
+    width: 25px;
+}
+
+
