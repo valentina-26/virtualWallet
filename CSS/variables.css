@@ -4,6 +4,8 @@
     --color-3: #B5C5C3;
     --color-4: #FFFFFF;
     --color-5: #E1FFEF;
+    --color-6: #c6c6c6;
+
     
 
     --space-layout-padding-lr:10px;
@@ -28,4 +30,9 @@
 @font-face {
     font-family:"SF-Pro-Text-Medium";
     src: url(/storage/font/SF-Pro-Text-Medium.otf);
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-Semibold";
+    src: url(/storage/font/SF-Pro-Text-Semibold.otf);
 }

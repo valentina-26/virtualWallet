@@ -90,7 +90,7 @@ progress{
 
  
 .saving__two progress::-webkit-progress-value {
-    background-color:#B5C5C3;
+    background-color:var(--color-6);
     border-radius: 10px; 
 }
 
