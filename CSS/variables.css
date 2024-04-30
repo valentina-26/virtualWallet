@@ -4,7 +4,7 @@
     --color-3: #B5C5C3;
     --color-4: #FFFFFF;
     --color-5: #E1FFEF;
-    --color-6: #c6c6c6;
+    --color-6: #afafaf;
 
     
 
@@ -14,30 +14,30 @@
 
 @font-face {
     font-family: "SF-Pro-Text-Bold";
-    src: url(storage/font/SF-Pro-Text-Bold.otf);
+    src: url(../storage/font/SF-Pro-Text-Bold.otf);
 }
 
 @font-face {
     font-family:"SF-Pro-Text-Heavy";
-    src: url(storage/font/SF-Pro-Text-Heavy.otf);
+    src: url(../storage/font/SF-Pro-Text-Heavy.otf);
 }
 
 @font-face {
     font-family:"SF-Pro-Text-Light";
-    src: url(storage/font/SF-Pro-Text-Light.otf);
+    src: url(../storage/font/SF-Pro-Text-Light.otf);
 }
 
 @font-face {
     font-family:"SF-Pro-Text-Medium";
-    src: url(storage/font/SF-Pro-Text-Medium.otf);
+    src: url(../storage/font/SF-Pro-Text-Medium.otf);
 }
 
 @font-face {
     font-family: "SF-Pro-Text-Semibold";
-    src: url(storage/font/SF-Pro-Text-Semibold.otf);
+    src: url(../storage/font/SF-Pro-Text-Semibold.otf);
 }
 
 @font-face {
     font-family: "SF-Pro-Text-Regular";
-    src: url(storage/font/SF-Pro-Text-Regular.otf);
+    src: url(../storage/font/SF-Pro-Text-Regular.otf);
 }

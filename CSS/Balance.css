@@ -75,8 +75,8 @@ main{
 
 
 .ovals{
-    justify-content: center;
     display: flex;
+    justify-content: center;
     gap: 35px;
     margin-bottom: 25px;
 }

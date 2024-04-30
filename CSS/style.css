@@ -30,13 +30,17 @@ body{
     font-size: 0.7rem;
     margin-top:12%;
     margin-left: 4px;
-    font-family: "SF-Pro-Text-Bold";
+    font-family:"SF-Pro-Text-Bold";
     color: var(--color-4);
     
 }
 
 .main{
     padding: var(--space-layout-padding-t);
+}
+
+.welcome{
+    margin-left: 20px;
 }
 
 .welcome p{
@@ -54,6 +58,7 @@ body{
 }
 
 .savings{
+    /* background: rebeccapurple; */
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
@@ -69,7 +74,16 @@ body{
 .savings p{
     color:var(--color-4);
     font-size: 1.5rem;
+    font-family: "SF-Pro-Text-Bold";
 
+}
+
+.saving__one{
+    margin-left: 20px;
+}
+
+.saving__two{
+    margin-right: 20px;
 }
 
 .savings progress{
@@ -151,9 +165,28 @@ progress{
     margin-bottom: 15px;
 }
 
+.one h5{
+    font-family: "SF-Pro-Text-Bold";
+    color: var(--color-1);
+}
+
+.one small{
+    font-family: "SF-Pro-Text-Medium";
+}
 .one img{
     width: 35px;
 }
+
+.two h5{
+    font-family: "SF-Pro-Text-Bold";
+    color: var(--color-1);
+}
+
+.two small{
+    font-family: "SF-Pro-Text-Medium";
+    color: var(--color-6);
+}
+
 
 .smalltext{
     margin-left: 40px;
@@ -166,6 +199,7 @@ progress{
 
 .Transactions small{
     font-family:"SF-Pro-Text-Light";
+    color: var(--color-6);
 }
 
 .moves__two {
