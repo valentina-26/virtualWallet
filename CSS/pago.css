@@ -113,22 +113,26 @@ button{
 }
 
 .cards{
+    
     display: flex;
     overflow-x:auto;
     width: 100%;
+    margin-bottom: 35px;
 
     
 }
 
 
 .firsta{
+    background: var(--color-1);
     background-image: url(../storage/img/bubbles.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     flex: 0 0 auto;
     display: flex;
     flex-direction: column;
-    background: var(--color-1);
-    width: 220px;
-    height: 330px;
+    width: 200px;
+    height: 45vh;
     border-radius: 17px; 
     padding: 15px;
     margin: 15px;
@@ -183,8 +187,9 @@ button{
 .secondta{
     flex: 0 0 auto;
     background: var(--color-6);
-    width: 220px;
-    height: 330px;
+    background-image: url(../storage/img/bubbles.svg);
+    width: 200px;
+    height: 45vh;
     border-radius: 17px; 
     padding: 15px;
     margin: 15px;
