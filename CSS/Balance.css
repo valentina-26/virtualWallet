@@ -46,6 +46,11 @@ main{
     color: var(--color-4);
 }
 
+.balance h3{
+    font-family: "SF-Pro-Text-Bold";
+    font-size: 1.3rem;
+}
+
 .move{
     /* background: red; */
     width: 100%;
@@ -79,6 +84,10 @@ main{
     justify-content: center;
     gap: 35px;
     margin-bottom: 25px;
+}
+
+.ovals p{
+    font-family:"SF-Pro-Text-Bold" ;
 }
 
 .Assets p{
@@ -132,6 +141,8 @@ main{
     margin-bottom: 45px;
 }
 
+
+
 .LET{
     /* background: rebeccapurple; */
     width: 90%;
@@ -140,7 +151,7 @@ main{
     justify-content: end;
 }
 
-.anal{
+.tarj{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -168,10 +179,6 @@ main{
 
 .text small{
     font-family: "SF-Pro-Text-Regular";
-}
-
-.letter{
-
 }
 
 

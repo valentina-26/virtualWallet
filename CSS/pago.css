@@ -166,6 +166,11 @@ button{
     
 }
 
+.midle p{
+    font-family:"SF-Pro-Text-Semibold" ;
+    font-size: 1.5rem;
+}
+
 .midle1 {
     height: 35%;
     text-align: center;
@@ -173,7 +178,8 @@ button{
 
 .midle1 p{
     font-family:"SF-Pro-Text-Semibold" ;
-    margin-top: 55%;
+    margin-top: 46%;
+    font-size: 1.5rem;
 }
 
 
