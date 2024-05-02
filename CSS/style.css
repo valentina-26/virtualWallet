@@ -30,7 +30,7 @@ body{
     font-size: 0.9rem;
     margin-top:12%;
     margin-left: 4px;
-    font-family:"Fjalla";
+    font-family:"Poppins-ExtraBoldItalic";
     color: var(--color-4);
     
 }
@@ -44,13 +44,13 @@ body{
 }
 
 .welcome p{
-    font-family: "LibreBold";
+    font-family: "Poppins-ExtraBoldItalic";
     font-size: 2rem;
     color: var(--color-4);
 }
 
 .welcome span{
-    font-family: "LibreBold";
+    font-family: "Poppins-ExtraBoldItalic";
     font-size: 2rem;
     width: 80%;
     color: var(--color-4);
@@ -68,13 +68,13 @@ body{
 
 .savings h5{
     color:var(--color-4);
-    font-family:"LibreBold";
+    font-family:"Poppins-ExtraBoldItalic";;
 }
 
 .savings p{
     color:var(--color-4);
     font-size: 1.5rem;
-    font-family: "Fjalla";
+    font-family: "Poppins-Light";
 
 }
 
@@ -98,7 +98,7 @@ progress{
 
 
 .saving__two progress::-webkit-progress-bar {
-    background-color: white;
+    background-color:var(--color-4);
     border-radius: 20px; 
 }
 
@@ -109,7 +109,7 @@ progress{
 }
 
 .saving__one progress::-webkit-progress-bar {
-    background-color: white;
+    background-color:var(--color-4);
     border-radius: 20px; 
 }
 
@@ -133,7 +133,7 @@ progress{
     color: var(--color-1);
     margin-top: 12px;
     font-size: 1.2rem;
-    font-family:"LibreBold";
+    font-family:"Poppins-Light";
  
 }
 
@@ -155,7 +155,7 @@ progress{
     border-radius: 20px;
     text-align: center;
     color: var(--color-1);
-    font-family: "LibreBold";
+    font-family: "Poppins-Light";
     width: 150px;
     height: 20vh;
 }
@@ -169,7 +169,7 @@ progress{
     border-radius: 20px;
     text-align: center;
     color: var(--color-1);
-    font-family: "LibreBold";
+    font-family: "Poppins-Light";
     width: 150px;
     height: 20vh;
 }
@@ -184,7 +184,7 @@ progress{
 }
 
 .Transactions h3{
-    font-family:"Fjalla" ;
+    font-family:"Poppins-Light" ;
     margin-bottom: 15px
 }
 
@@ -197,24 +197,24 @@ progress{
 }
 
 .one h5{
-    font-family: "Fjalla";
+    font-family: "Poppins-ExtraBoldItalic";
     color: var(--color-1);
 }
 
 .one small{
-    font-family: "SF-Pro-Text-Medium";
+    font-family: "Poppins-Light";
 }
 .one img{
     width: 35px;
 }
 
 .two h5{
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Poppins-Light";
     color: var(--color-1);
 }
 
 .two small{
-    font-family: "SF-Pro-Text-Medium";
+    font-family: "Poppins-Light";
     color: var(--color-6);
 }
 
@@ -225,11 +225,11 @@ progress{
 }
 
 .Transactions h5{
-    font-family:"SF-Pro-Text-Bold";
+    font-family:"Poppins-Light";
 }
 
 .Transactions small{
-    font-family:"SF-Pro-Text-Light";
+    font-family:"Poppins-Light";
     color: var(--color-6);
 }
 
