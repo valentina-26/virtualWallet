@@ -145,6 +145,7 @@ main{
 
 .LET{
     /* background: rebeccapurple; */
+    margin-top: -40px;
     width: 90%;
     height: 30px;
     display: flex;
@@ -163,7 +164,7 @@ main{
 }
 
 .card img{
-    width: 80px;
+    width: 50px;
 }
 
 .letter img{

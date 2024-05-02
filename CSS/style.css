@@ -30,7 +30,7 @@ body{
     font-size: 0.9rem;
     margin-top:12%;
     margin-left: 4px;
-    font-family:"SF-Pro-Text-Bold";
+    font-family:"Fjalla";
     color: var(--color-4);
     
 }
@@ -44,13 +44,13 @@ body{
 }
 
 .welcome p{
-    font-family: "SF-Pro-Text-Heavy";
+    font-family: "LibreBold";
     font-size: 2rem;
     color: var(--color-4);
 }
 
 .welcome span{
-    font-family: "SF-Pro-Text-Light";
+    font-family: "LibreBold";
     font-size: 2rem;
     width: 80%;
     color: var(--color-4);
@@ -68,13 +68,13 @@ body{
 
 .savings h5{
     color:var(--color-4);
-    font-family:"SF-Pro-Text-Medium";
+    font-family:"LibreBold";
 }
 
 .savings p{
     color:var(--color-4);
     font-size: 1.5rem;
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Fjalla";
 
 }
 
@@ -133,7 +133,7 @@ progress{
     color: var(--color-1);
     margin-top: 12px;
     font-size: 1.2rem;
-    font-family:"SF-Pro-Text-Bold";
+    font-family:"LibreBold";
  
 }
 
@@ -155,7 +155,7 @@ progress{
     border-radius: 20px;
     text-align: center;
     color: var(--color-1);
-    font-family: "SF-Pro-Text-Semibold";
+    font-family: "LibreBold";
     width: 150px;
     height: 20vh;
 }
@@ -170,7 +170,7 @@ progress{
 }
 
 .Transactions h3{
-    font-family:"SF-Pro-Text-Bold" ;
+    font-family:"Fjalla" ;
     margin-bottom: 15px
 }
 
@@ -183,7 +183,7 @@ progress{
 }
 
 .one h5{
-    font-family: "SF-Pro-Text-Bold";
+    font-family: "Fjalla";
     color: var(--color-1);
 }
 

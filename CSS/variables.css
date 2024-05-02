@@ -3,9 +3,9 @@
 
     --color-1: #5783bc;
     --color-2: #063254;
-    --color-3: #B5C5C3;
+    --color-3: #a5c6f7;
     --color-4: #FFFFFF;
-    --color-5: #E1FFEF;
+    --color-5: #d1d6e6;
     --color-6: #afafaf;
 
     
@@ -42,4 +42,14 @@
 @font-face {
     font-family: "SF-Pro-Text-Regular";
     src: url(../storage/font/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+    font-family: "LibreBold";
+    src: url(../storage/font/LibreBaskerville-Bold.ttf);
+}
+
+@font-face {
+    font-family:"Fjalla";
+    src: url(../storage/font/FjallaOne-Regular.ttf);
 }
