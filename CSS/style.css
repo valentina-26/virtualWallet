@@ -160,6 +160,20 @@ progress{
     height: 20vh;
 }
 
+.container1:hover{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px var(--color-2);
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--color-1);
+    font-family: "LibreBold";
+    width: 150px;
+    height: 20vh;
+}
+
 .container1 img{
     width: 50px;
     margin: 30px 25px 10px 25px;
@@ -266,6 +280,11 @@ progress{
 
 .footer__ul img{
     width: 30px;
+    margin-bottom: 3px;
+}
+
+.point{
+    height: 10px;
 }
 
 

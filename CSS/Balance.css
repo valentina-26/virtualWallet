@@ -11,7 +11,7 @@
 
 header{
     background:var(--color-1);
-    background-image: url(../storage/img/bubbles.svg);
+    background-image: url(../storage/img/blue.jpeg);
     display: flex;
     flex-direction: column;
     padding: var(--space-layout-padding-lr);
@@ -43,7 +43,7 @@ main{
     margin-top:12%;
     margin-left: 4px;
     font-family: "SF-Pro-Text-Bold";
-    color: var(--color-4);
+    color: var(--color-2);
 }
 
 .balance h3{
@@ -63,7 +63,7 @@ main{
 }
 
 .Total{
-    background:var(--color-2);
+    background:var(--color-5);
     width: 170px;
     height: 170px;
     justify-content: center;
@@ -75,7 +75,7 @@ main{
 }
 
 .Total h3{
-    color:var(--color-4);
+    color:var(--color-2);
 }
 
 
@@ -90,7 +90,20 @@ main{
     font-family:"SF-Pro-Text-Bold" ;
 }
 
-.Assets p{
+.Assets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-4);
+    color: var(--color-1);
+    font-family: "SF-Pro-Text-Regular";
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid var(--color-1);
+}
+
+.Assets:hover{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +115,7 @@ main{
     border-radius: 15px;
 }
 
-.Debt p{
+.Debt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,8 +126,19 @@ main{
     width: 70px;
     height: 25px;
     border-radius: 15px;
+}
 
-    
+.Debt:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-2);
+    border: 1px solid var(--color-2);
+    color: var(--color-4);
+    font-family: "SF-Pro-Text-Regular";
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
 }
 
 .Income{
@@ -130,6 +154,19 @@ main{
     font-family: "SF-Pro-Text-Regular";
 }
 
+.Income:hover{
+    display: flex;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-3);
+    border: 1px solid var(--color-3);
+    color: var(--color-4);
+    font-family: "SF-Pro-Text-Regular";
+}
+
 
 .speding{
     background: var(--color-5);
@@ -140,6 +177,8 @@ main{
     align-items: center;
     margin-bottom: 45px;
 }
+
+
 
 
 

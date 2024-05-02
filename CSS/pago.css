@@ -52,7 +52,7 @@ main{
 
 
 .logo{
-    background: var(--color-6);
+    background: var(--color-2);
     height: 100%;
     width: 125px;
     border-top-right-radius: 40%;
@@ -110,8 +110,16 @@ button{
     height: 33px;
     width: 140px;
     border-radius: 20px;
+}
 
-
+button:hover{
+    border: 0px;
+    background: var(--color-1);
+    color: var(--color-4);
+    font-family:"SF-Pro-Text-Bold" ;
+    height: 33px;
+    width: 140px;
+    border-radius: 20px;
 }
 
 .my h2{
@@ -136,6 +144,23 @@ button{
 
 .firsta{
     background: var(--color-1);
+    background-image: url(../storage/img/bubbles.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 45vh;
+    border-radius: 17px; 
+    padding: 15px;
+    margin: 15px;
+    color: var(--color-4);
+    
+}
+
+.firsta:hover{
+    background: var(--color-2);
     background-image: url(../storage/img/bubbles.svg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -204,6 +229,18 @@ button{
 .secondta{
     flex: 0 0 auto;
     background: var(--color-6);
+    background-image: url(../storage/img/bubbles.svg);
+    width: 220px;
+    height: 45vh;
+    border-radius: 17px; 
+    padding: 15px;
+    margin: 15px;
+    color: var(--color-4);
+}
+
+.secondta:hover{
+    flex: 0 0 auto;
+    background: var(--color-2);
     background-image: url(../storage/img/bubbles.svg);
     width: 220px;
     height: 45vh;
