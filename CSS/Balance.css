@@ -167,6 +167,10 @@ main{
     font-family: "SF-Pro-Text-Regular";
 }
 
+.grafic img{
+    padding: 25px;
+}
+
 
 .speding{
     background: var(--color-5);
